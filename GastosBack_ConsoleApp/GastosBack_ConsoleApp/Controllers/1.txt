@@ -1,0 +1,19 @@
+﻿
+
+        /*[HttpPost]
+        public IHttpActionResult Insert([FromBody] RubroBanco item)
+        {
+            if (item == null)
+            {
+                return BadRequest();
+            }
+            _repo.Add(item);
+            _repo.SaveChanges();
+
+            //obtener el Id para devolverlo al cliente
+            var rubroBanco = _repo.Find(item.Rubro);
+
+            //RubrosBancoHub.Changed();
+
+            return CreatedAtRoute("Default", new { Id = item.Id }, rubroBanco);
+        }*/

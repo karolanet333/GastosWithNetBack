@@ -1,0 +1,24 @@
+ 1) https://docs.microsoft.com/en-us/aspnet/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
+ 2) Agregar referencia a System.Web
+ 3) Install-Package EntityFramework
+ 4) ConnectionString
+ 5) Install-Package Unity
+ 6) Agregar la clase UnityResolver
+ 7) Swashbuckle: Install-Package Swashbuckle -Version 5.5.3
+ 8) Agregar using en Startup.cs: using Swashbuckle.Application;
+ 9) Install: Install-Package Microsoft.AspNet.WebApi.Cors
+10) Install-Package Microsoft.Owin.Cors
+11) Install: Install-Package Microsoft.AspNet.SignalR
+
+12) npm install ng2-signalr --save
+
+/*
+12) npm install --save @types/jquery
+    npm install --save @types/signalr*/
+	
+
+	
+	
+http://stackoverflow.com/questions/41378582/angular-2-typescript-using-signalr
+
+
